@@ -107,6 +107,7 @@ Mesh.prototype.getCells = function() {
   var faces = this.faces;
   var vertices = this.vertices;
   var len = faces.length;
+  var halfEdge;
   for( var i = 0; i < len; i++ ) {
     var face = faces[ i ];
     var halfEdgeStart = halfEdge = face.getHalfEdge();
