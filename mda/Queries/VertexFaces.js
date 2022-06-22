@@ -1,4 +1,5 @@
 module.exports = function( vertex ) {
+  var originalHalfEdge, he;
   var startHalfEdge = originalHalfEdge = he = vertex.getHalfEdge();
   var faces = [];
   do {

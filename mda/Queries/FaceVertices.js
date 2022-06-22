@@ -1,4 +1,5 @@
 module.exports = function( face ) {
+  var he;
   var originalHalfEdge = he = face.getHalfEdge();
   var vertices = [];
   do {
